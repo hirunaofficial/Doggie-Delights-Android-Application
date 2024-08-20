@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/round_outline"
+    android:layout_marginBottom="16dp">
+
+    <TextView
+        android:id="@+id/tvArticleTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Article Title"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvArticleAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="by Author"
+        android:textStyle="italic"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnDeleteArticle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_gravity="end"
+        android:layout_marginTop="8dp" />
+</LinearLayout>

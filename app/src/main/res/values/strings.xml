@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Doggie Delights</string>
+    <string name="welcome_text">Welcome to Doggie Delights!</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="main_image_desc">Main image</string>
+    <string name="error_fill_all_fields">Please fill out all fields</string>
+    <string name="error_invalid_email">Invalid email address</string>
+    <string name="error_password_length">Password must be at least 6 characters long</string>
+    <string name="error_password_mismatch">Passwords do not match</string>
+    <string name="error_username_exists">Username already exists</string>
+    <string name="error_email_exists">Email already exists</string>
+    <string name="registration_successful">Registration successful!</string>
+    <string name="registration_failed">Registration Failed</string>
+    <string-array name="user_type_array">
+        <item>Admin</item>
+        <item>Customer</item>
+    </string-array>
+    <string-array name="order_status_array">
+        <item>Pending</item>
+        <item>Completed</item>
+        <item>Cancelled</item>
+        <item>Shipped</item>
+    </string-array>
+</resources>

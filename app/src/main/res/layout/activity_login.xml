@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:background="@drawable/login">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doggie Delights Login"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"
+        android:textColor="?attr/colorAccent"/>
+
+    <EditText
+        android:id="@+id/etUsernameOrEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username or Email"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"
+        android:textColorHint="?attr/colorAccent"
+        android:textColor="?attr/colorAccent"
+        android:backgroundTint="?attr/colorAccent"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginBottom="24dp"
+        android:textColorHint="?attr/colorAccent"
+        android:textColor="?attr/colorAccent"
+        android:backgroundTint="?attr/colorAccent"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:backgroundTint="?attr/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/tvRegisterLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="Not registered yet? Register here"
+        android:textColor="?attr/colorAccent"/>
+</LinearLayout>
